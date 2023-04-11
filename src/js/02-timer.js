@@ -23,7 +23,7 @@ function onClickStart() {
   timerId = setInterval(() => {
     countdownTime -= 1000; 
 
-    if (countdownTime <= 0) {
+    if (countdownTime < 0) {
       clearInterval(timerId);
       return
     }
