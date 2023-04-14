@@ -15,10 +15,6 @@ function createPromise(position, delay) {
 
 const refs = {
   form: document.querySelector('.form'),
-  delayForm: document.querySelector('[name="delay"]'),
-  stepForm: document.querySelector('[name="step"]'),
-  amountForm: document.querySelector('[name="amount"]'),
-  buttonForm: document.querySelector('button'),
 };
 
 refs.form.addEventListener('submit', onSubmit);
